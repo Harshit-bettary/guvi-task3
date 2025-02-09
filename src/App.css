@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background:linear-gradient(to bottom, #3259d7,#9e38c3);
+}
+.heading{
+  color:rgb(168, 228, 173);
+}
+.task-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  font-size: large;
+  color:white;
+  #task{
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid black;
+
+  }
+
+  .save-btn{
+    height: 45px;
+  }
+}
+
+.counter-section{
+  padding: 50px;
+  color: aliceblue;
+  column-gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  #counter-btn{
+  }
+}
